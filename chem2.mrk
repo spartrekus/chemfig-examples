@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{chemfig}
+\usepackage{chemnum}
+\newcommand*\pkg[1]{\textsf{#1}}
+\begin{document}
+
+\begin{figure}
+  \centering
+  \chemfig{-[:30](=[:90]O)-[:-30]OH}
+  \caption{The sceletal formula of ethanol (\cmpd{ethanol}) drawn with
+    \pkg{chemfig}.}
+  \label{fig:ethanol}
+\end{figure}
+
+The formula of \cmpd{ethanol} is shown in figure~\ref{fig:ethanol}.
+
+\end{document}

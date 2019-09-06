@@ -1,0 +1,55 @@
+
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{chemfig}
+
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{pdfpages}
+\usepackage{wallpaper}
+
+\usepackage{epstopdf}
+\usepackage{enumitem}
+
+\usepackage{soul}
+
+\sloppy
+\usepackage[none]{hyphenat}
+
+\usepackage[utf8]{inputenc}
+
+
+\begin{document}
+
+have a look at : 
+http://www.nagel-net.de/Latex/DOKU/Chemie\_chemfig.pdf\vspace{1cm}
+
+\chemfig{-[:30]=[:-30,,,,red]-[:30]}
+\vspace{1cm}
+
+
+\chemfig{C(-[2]H)(-[4]H)(-[6]H)-\lewis{260,Cl}}
+\vspace{1cm}
+
+\chemfig{[:40]H-\lewis{13,O}-[::-80]H}
+\vspace{1cm}
+
+
+\lewis{0.2.4.6.,C}\hspace{1cm}
+\vspace{1cm}
+
+\lewis{0|2.46.,C}\hspace{1cm}
+\vspace{1cm}
+
+\lewis{1357,Ar}
+\vspace{1cm}
+
+
+\chemfig{**6(------)} \hspace{.5cm} + \hspace{.5cm} \chemfig{H_3C-Cl}
+\hspace{.5cm} $\Rightarrow$ \hspace{.5cm}
+\chemfig{**6(---(-)---)} \hspace{.5cm} + \hspace{.5cm} \chemfig{H-Cl}
+
+
+\end{document}

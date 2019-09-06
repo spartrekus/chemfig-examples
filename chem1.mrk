@@ -1,0 +1,42 @@
+
+!tex
+!utf
+\usepackage{chemfig}
+!packages
+!begin
+// https://www.latex-kurs.de/kurse/2017/Kurs2/Teil10/Chemie.pdf
+
+have a look at : 
+!raw http://www.nagel-net.de/Latex/DOKU/Chemie_chemfig.pdf
+\vspace{1cm}
+
+\chemfig{-[:30]=[:-30,,,,red]-[:30]}
+\vspace{1cm}
+
+
+\chemfig{C(-[2]H)(-[4]H)(-[6]H)-\lewis{260,Cl}}
+\vspace{1cm}
+
+\chemfig{[:40]H-\lewis{13,O}-[::-80]H}
+\vspace{1cm}
+
+
+\lewis{0.2.4.6.,C}\hspace{1cm}
+\vspace{1cm}
+
+\lewis{0|2.46.,C}\hspace{1cm}
+\vspace{1cm}
+
+\lewis{1357,Ar}
+\vspace{1cm}
+
+
+\chemfig{**6(------)} \hspace{.5cm} + \hspace{.5cm} \chemfig{H_3C-Cl}
+\hspace{.5cm} $\Rightarrow$ \hspace{.5cm}
+\chemfig{**6(---(-)---)} \hspace{.5cm} + \hspace{.5cm} \chemfig{H-Cl}
+
+
+!enddoc
+
+
+
